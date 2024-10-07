@@ -1,0 +1,27 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    background:white;
+    border-inline: 5px solid;
+    border-image: linear-gradient(to bottom,rgba(0,0,0,0),red,orange,rgba(0,0,0,0));
+    border-image-slice: 1;
+}
+
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: #f6f6f6;
+    text-decoration: none;
+    gap: 20px;
+    cursor: pointer;
+    
+}

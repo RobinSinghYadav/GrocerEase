@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'poppins';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    
+}
+
+/* Hide scroll bar but allow scrolling for the entire page */
+html, body {
+    overflow: -moz-scrollbars-none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  html::-webkit-scrollbar, 
+  body::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  
+
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+    
+}
+
+.nav-logo{
+    width: 200px;
+}
+
+.nav-profile{
+    width: 75px;
+}
+
+
+.admin{
+    display: flex;
+}
+
+
+.admin h3{
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+
+.admin h3 span{
+    color: rgb(210, 42, 42);
+    text-shadow: 2px 2px 3px cyan;
+    
+}

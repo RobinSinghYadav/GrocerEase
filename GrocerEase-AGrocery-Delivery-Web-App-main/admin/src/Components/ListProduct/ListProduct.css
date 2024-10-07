@@ -1,0 +1,98 @@
+.list-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    /* height: fit-content;   */
+    height: 740px;
+    padding: 10px 50px;
+    margin: 30px;
+    border-radius: 6px;
+    background: white;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right,red,orange);
+    border-image-slice: 1;
+}
+
+.listproduct-format-main{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.listproduct-format{
+    align-items: center;
+    font-weight: 500;
+}
+
+.listproduct-product-icon{
+    height: 80px;
+}
+
+.listproduct-remove-icon{
+    cursor: pointer;
+    margin: auto;
+}
+
+.listproduct-allproducts{
+    overflow-y: auto;
+}
+
+
+.listproduct-edit-button{
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+
+.listproduct-save-button{
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #00ff4c;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: #00ff88;
+}
+
+.listproduct-edit-input{
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+
+.listproduct-cancel-button{
+    cursor: pointer;
+    
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #f8312f;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    margin-right: 5px;
+}
+
+.listproduct-actions{
+    display: flex;
+    
+}
