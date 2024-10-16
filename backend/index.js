@@ -458,8 +458,8 @@ app.post('/place',fetchUser, async (req, res) => {
 
             line_items: line_items,
             mode: 'payment',
-            success_url: `${url}/verify?success=true&orderId=${newOrder._id}`,
-            cancel_url: `${url}/verify?success=false&orderId=${newOrder._id}`,
+            success_url: `https://grocerease-frontend-r8sk.onrender.com/?payment=success`,
+            cancel_url: `https://grocerease-frontend-r8sk.onrender.com/?payment=failed`,
         });
 
         res.json({ success: true, session_url: session.url });
